@@ -1,0 +1,3 @@
+vhdl work "fsm_moore_mod.vhd"
+verilog work "fsm_test_bench.tfw"
+verilog work "C:/Xilinx92i/verilog/src/glbl.v"

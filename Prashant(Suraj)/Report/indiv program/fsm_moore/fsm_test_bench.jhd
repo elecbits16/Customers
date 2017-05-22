@@ -1,0 +1,3 @@
+MODULE fsm_test_bench
+SUBMODULE fsm_moore_mod
+INSTANCE UUT

@@ -1,0 +1,4 @@
+AR fsm_moore_mod behavioral "D:/saurav/elecbits original/Xilinx/indiv program/fsm_moore/fsm_moore_mod.vhd" sub00/vhpl01 1491365534
+MO fsm_test_bench NULL "D:/saurav/elecbits original/Xilinx/indiv program/fsm_moore/fsm_test_bench.tfw" vlg68/fsm__test__bench.bin 1491365525
+MO glbl NULL C:/Xilinx92i/verilog/src/glbl.v vlg2D/glbl.bin 1491365531
+EN fsm_moore_mod NULL "D:/saurav/elecbits original/Xilinx/indiv program/fsm_moore/fsm_moore_mod.vhd" sub00/vhpl00 1491365533

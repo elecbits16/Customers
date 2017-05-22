@@ -1,0 +1,2 @@
+vhdl isim_temp "fsm_mealy_mod.vhd"
+vhdl isim_temp "fsm_test_bench.vhd"

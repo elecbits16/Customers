@@ -1,0 +1,2 @@
+xst -ise "D:/saurav/elecbits original/Xilinx/indiv program/fsm_mealy/fsm_mealy.ise" -intstyle ise -ifn fsm_mealy_mod.xst -ofn fsm_mealy_mod.syr
+xst -ise "D:/saurav/elecbits original/Xilinx/indiv program/fsm_mealy/fsm_mealy.ise" -intstyle ise -ifn fsm_mealy_mod.xst -ofn fsm_mealy_mod.syr

@@ -1,0 +1,3 @@
+MODULE fsm_testbench_waveform
+SUBMODULE fsm_mealy_mod
+INSTANCE UUT

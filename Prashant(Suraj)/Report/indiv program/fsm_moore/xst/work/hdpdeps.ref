@@ -1,0 +1,9 @@
+V3 3
+FL "D:/saurav/elecbits original/Xilinx/indiv program/fsm_moore/fsm_moore_mod.vhd" 2017/04/05.09:36:11 J.36
+EN work/fsm_moore_mod 1491365502 \
+      FL "D:/saurav/elecbits original/Xilinx/indiv program/fsm_moore/fsm_moore_mod.vhd" \
+      PB ieee/std_logic_1164 1177545575 PB ieee/std_logic_arith 1177545576 \
+      PB ieee/STD_LOGIC_UNSIGNED 1177545583
+AR work/fsm_moore_mod/Behavioral 1491365503 \
+      FL "D:/saurav/elecbits original/Xilinx/indiv program/fsm_moore/fsm_moore_mod.vhd" \
+      EN work/fsm_moore_mod 1491365502

@@ -1,0 +1,3 @@
+vhdl work "fsm_mealy_mod.vhd"
+verilog work "fsm_testbench_waveform.tfw"
+verilog work "C:/Xilinx92i/verilog/src/glbl.v"

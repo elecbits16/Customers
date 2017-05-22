@@ -1,0 +1,56 @@
+////////////////////////////////////////////////////////////////////////////////
+// Copyright (c) 1995-2007 Xilinx, Inc.
+// All Right Reserved.
+////////////////////////////////////////////////////////////////////////////////
+//   ____  ____ 
+//  /   /\/   / 
+// /___/  \  /    Vendor: Xilinx 
+// \   \   \/     Version : 9.2i
+//  \   \         Application : ISE
+//  /   /         Filename : fsm_testbench_waveform.tfw
+// /___/   /\     Timestamp : Wed Apr 05 01:00:57 2017
+// \   \  /  \ 
+//  \___\/\___\ 
+//
+//Command: 
+//Design Name: fsm_testbench_waveform
+//Device: Xilinx
+//
+`timescale 1ns/1ps
+
+module fsm_testbench_waveform;
+    reg reset = 1'b0;
+    reg clk = 1'b0;
+    reg x = 1'b0;
+    wire z;
+
+    parameter PERIOD = 200;
+    parameter real DUTY_CYCLE = 0.5;
+    parameter OFFSET = 100;
+
+    initial    // Clock process for clk
+    begin
+        #OFFSET;
+        forever
+        begin
+            clk = 1'b0;
+            #(PERIOD-(PERIOD*DUTY_CYCLE)) clk = 1'b1;
+            #(PERIOD*DUTY_CYCLE);
+        end
+    end
+
+    fsm_mealy_mod UUT (
+        .reset(reset),
+        .clk(clk),
+        .x(x),
+        .z(z));
+
+    initial begin
+        // -------------  Current Time:  100ns
+        #100;
+        x = 1'b1;
+        // -------------------------------------
+    end
+
+endmodule
+
